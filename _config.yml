@@ -1,0 +1,25 @@
+title: "Supachok Paidee"
+description: >
+  Aspiring Software Engineer & DevOps Enthusiast. 
+  Focused on building efficient systems, automated workflows, 
+  and scalable modern web applications.
+
+theme: jekyll-theme-minimal
+
+# profile_logo: /assets/images/profile.jpg
+show_downloads: false
+
+social_links:
+  github: SPCH-f
+  linkedin: "https://www.linkedin.com/in/supachok-paidee-b167a3411"
+  email: filxxmspch@gmail.com
+
+collections:
+  projects:
+    output: true
+
+sass:
+  style: compressed
+
+url: "https://SPCH-f.github.io" 
+baseurl: ""
