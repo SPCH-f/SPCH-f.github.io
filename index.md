@@ -1,7 +1,9 @@
 ---
 layout: portfolio
 title: "Supachok Paidee"
+tab: "Supachok Paidee - Portfolio"
 subtitle: "Junior Software Engineer | DevOps Enthusiast | Full-Stack Developer"
+
 
 about: |
   A passionate and driven graduate aiming to excel in Software Engineering and DevOps. 
