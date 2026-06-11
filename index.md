@@ -2,7 +2,6 @@
 layout: portfolio
 title: "Supachok Paidee"
 tab: "Supachok Paidee - Portfolio"
-subtitle: "Junior Software Engineer | DevOps Enthusiast | Full-Stack Developer"
 
 
 about: |
