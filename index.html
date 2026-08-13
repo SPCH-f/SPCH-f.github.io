@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPCH</title>
+  <meta name="description"
+    content="Portfolio ของ SUPACHOK PAIDEE — Full Stack Developer, Web Developer, AI Engineer และ Data Science พร้อมผลงานและประสบการณ์" />
+
+  <!-- Google Fonts: Inter + Kanit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Kanit:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════ Navbar ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">SPCH.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="เปิด/ปิดเมนู">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ═══════════════ Hero Section ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">The area of</p>
+      <h1>SUPACHOK PAIDEE</h1>
+      <div class="hero-roles">
+        <span class="role-text" id="roleText"></span>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-briefcase"></i> ดูผลงาน
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-envelope"></i> ติดต่อฉัน
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ About Section ═══════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>About Me</h2>
+        <p>เกี่ยวกับตัวผมและสิ่งที่ผมทำ</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text reveal">
+          <p>
+            สวัสดีครับ ผม <strong>ศุภโชค ไพดี (SUPACHOK PAIDEE)</strong> —
+            นักพัฒนาซอฟต์แวร์ผู้หลงใหลในการสร้างสรรค์เทคโนโลยี
+            ครอบคลุมทั้งด้าน Full Stack Development, Artificial Intelligence
+            และ Data Science
+          </p>
+          <p>
+            ตลอดเส้นทางการทำงาน ผมได้พัฒนาเว็บแอปพลิเคชัน, ระบบ API,
+            โมเดล Machine Learning ไปจนถึง Dashboard สำหรับวิเคราะห์ข้อมูล
+            โดยผสมผสานเทคโนโลยีทั้งฝั่ง Frontend และ Backend
+            เพื่อส่งมอบโซลูชันที่ตอบโจทย์การใช้งานจริง
+          </p>
+          <p>
+            ผมมีประสบการณ์ตรงจากการฝึกงานในหน่วยงานภาครัฐ
+            ซึ่งได้ใช้ Power BI ในการออกแบบและพัฒนา Dashboard
+            สำหรับวิเคราะห์และนำเสนอข้อมูลให้เข้าใจง่าย
+            ช่วยสนับสนุนการตัดสินใจได้อย่างมีประสิทธิภาพ
+          </p>
+          <p>
+            ผมให้ความสำคัญกับคุณภาพของงานในทุกรายละเอียด
+            และเชื่อว่าการเรียนรู้ไม่มีวันสิ้นสุด — จึงพร้อมเปิดรับเทคโนโลยีใหม่ๆ
+            อยู่เสมอ เพื่อพัฒนาตัวเองและสร้างผลงานที่ดียิ่งขึ้นในทุกโปรเจกต์
+            หากสนใจรายละเอียดผลงานเพิ่มเติม สามารถดูได้ที่
+            <a href="https://spch-f.github.io/" target="_blank" rel="noopener noreferrer">CV</a>
+
+          </p>
+        </div>
+        <div class="about-highlights reveal">
+          <div class="highlight-card">
+            <i class="fa-solid fa-code"></i>
+            <h4>Full Stack Dev</h4>
+            <p>Frontend & Backend</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fa-solid fa-robot"></i>
+            <h4>AI / ML</h4>
+            <p>Deep Learning & NLP</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h4>Data Science</h4>
+            <p>Analytics & Viz</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fa-solid fa-cloud"></i>
+            <h4>DevOps</h4>
+            <p>Docker & CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ Experience Section ═══════════════ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Experience</h2>
+        <p>ประสบการณ์การทำงานที่ผ่านมา</p>
+      </div>
+      <!-- Timeline จะถูก render ด้วย JS จาก experience-data.js -->
+      <div class="timeline" id="experienceTimeline"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ Skills Section ═══════════════ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Technical Skills</h2>
+        <p>เทคโนโลยีและเครื่องมือที่ผมใช้งาน</p>
+      </div>
+      <div class="skills-grid">
+
+        <!-- หมวด 1: Programming Languages -->
+        <div class="skill-category reveal reveal-delay-1">
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Bash/Shell</span>
+          </div>
+        </div>
+
+        <!-- หมวด 2: AI/ML & Deep Learning -->
+        <div class="skill-category reveal reveal-delay-2">
+          <h3>AI/ML & Deep Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">KNN</span>
+            <span class="skill-tag">Random Forest</span>
+            <span class="skill-tag">Naive Bayes</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">MLP</span>
+            <span class="skill-tag">CNN</span>
+          </div>
+        </div>
+
+        <!-- หมวด 3: Web & Mobile -->
+        <div class="skill-category reveal reveal-delay-3">
+          <h3>Web & Mobile</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+
+        <!-- หมวด 4: DevOps & Cloud -->
+        <div class="skill-category reveal reveal-delay-4">
+          <h3>DevOps & Cloud</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Docker Compose</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Git/Github</span>
+            <span class="skill-tag">AWS</span>
+          </div>
+        </div>
+
+        <!-- หมวด 5: Database & Data -->
+        <div class="skill-category reveal reveal-delay-5">
+          <h3>Database & Data</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">ClickHouse</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+          </div>
+        </div>
+
+        <!-- หมวด 6: Tools & Visualization -->
+        <div class="skill-category reveal reveal-delay-6">
+          <h3>Tools & Visualization</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Looker Studio</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ Projects Section ═══════════════ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Projects</h2>
+        <p>ผลงานที่ผ่านมา</p>
+      </div>
+      <!-- Project list จะถูก render ด้วย JS จาก projects-data.js -->
+      <div class="projects-list" id="projectsList"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ Contact Section ═══════════════ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Contact</h2>
+        <p>ติดต่อได้ผ่านช่องทางเหล่านี้</p>
+      </div>
+      <div class="contact-grid reveal">
+        <!-- ข้อมูลติดต่อ -->
+        <div class="contact-info-item">
+          <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+          <div class="info-text">
+            <h4>Email</h4>
+            <a href="mailto:filxxmspch@gmail.com">filxxmspch@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+          <div class="info-text">
+            <h4>Phone</h4>
+            <p>083-929-5123</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="info-text">
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/supachok-paidee-b167a3411" target="_blank"
+              rel="noopener">supachok-paidee</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon-box"><i class="fa-brands fa-github"></i></div>
+          <div class="info-text">
+            <h4>GitHub</h4>
+            <a href="https://github.com/SPCH-f" target="_blank" rel="noopener">SPCH-f</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon-box"><i class="fa-solid fa-file-lines"></i></div>
+          <div class="info-text">
+            <h4>CV</h4>
+            <a href="https://spch-f.github.io/" target="_blank" rel="noopener">spch-f.github.io</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ Footer ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com/SPCH-f" target="_blank" rel="noopener" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/supachok-paidee-b167a3411" target="_blank" rel="noopener"
+          aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:filxxmspch@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://spch-f.github.io/" target="_blank" rel="noopener" aria-label="CV"><i
+            class="fa-solid fa-file-lines"></i></a>
+      </div>
+      <p>&copy; 2026 SUPACHOK PAIDEE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript (type=module เพื่อใช้ import/export) -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
