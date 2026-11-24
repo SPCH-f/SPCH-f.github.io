@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SPCH</title>
+  <title>SUPACHOK PAIDEE — Full Stack Developer</title>
   <meta name="description"
     content="Portfolio ของ SUPACHOK PAIDEE — Full Stack Developer, Web Developer, AI Engineer และ Data Science พร้อมผลงานและประสบการณ์" />
+  <meta name="theme-color" content="#080d17" />
 
   <!-- Google Fonts: Inter + Kanit -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,12 +46,15 @@
 
   <!-- ═══════════════ Hero Section ═══════════════ -->
   <section class="hero" id="home">
+    <div class="hero-scene" aria-hidden="true">
+      <canvas id="heroCanvas"></canvas>
+    </div>
     <div class="hero-bg-grid"></div>
     <div class="hero-content">
-      <p class="hero-greeting">The area of</p>
+      <p class="hero-greeting">Full Stack Developer <span>·</span> Python · FastAPI</p>
       <h1>SUPACHOK PAIDEE</h1>
       <div class="hero-roles">
-        <span class="role-text" id="roleText"></span>
+        <span class="role-text" id="roleText">Building useful things with data</span>
       </div>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">
@@ -233,15 +237,17 @@
   </section>
 
   <!-- ═══════════════ Projects Section ═══════════════ -->
-  <section class="section" id="projects">
+  <section class="section projects-section" id="projects">
     <div class="container">
       <div class="section-header reveal">
         <div class="accent-line"></div>
         <h2>Projects</h2>
-        <p>ผลงานที่ผ่านมา</p>
+        <p>Selected work — เลื่อนเพื่อสำรวจผลงาน</p>
       </div>
       <!-- Project list จะถูก render ด้วย JS จาก projects-data.js -->
-      <div class="projects-list" id="projectsList"></div>
+      <div class="projects-viewport">
+        <div class="projects-list" id="projectsList"></div>
+      </div>
     </div>
   </section>
 
@@ -311,6 +317,9 @@
     </div>
   </footer>
 
+  <!-- GSAP owns the single animation ticker; Lenis and Three.js render from it. -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <!-- JavaScript (type=module เพื่อใช้ import/export) -->
   <script type="module" src="js/main.js"></script>
 
